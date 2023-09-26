@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className=" w-[85%] mx-auto mb-16 sm-spacing h-min bg-Manga-300 bg-opacity-10 backdrop-blur-md px-6 py-3 rounded-2xl outline-border">
+    <div className=" w-[85%] mx-auto my-16 sm-spacing h-min bg-Manga-300 bg-opacity-10 backdrop-blur-md px-6 py-3 rounded-2xl outline-border">
       <div>
         <div className=" text-lg text-Manga-100 text-justify ">
           <h2 className="shimmerb text-bblue-200 text-center py-4 text-xl">

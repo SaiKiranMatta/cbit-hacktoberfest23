@@ -413,29 +413,29 @@ class Form extends React.Component {
                     <select
                       id="620465286"
                       name="entry.108615760"
-                      className="w-full form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 focus:bg-void focus:w-60 md:focus:w-80"
+                      className="w-full  form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 focus:bg-void"
                     >
                       <option
                         readOnly="First Year"
-                        className=" w-min text-bblue-200 "
+                        className=" text-bblue-200 "
                       >
                         First Year
                       </option>
                       <option
                         readOnly="Second Year"
-                        className=" w-min text-bblue-200 "
+                        className=" text-bblue-200 "
                       >
                         Second Year
                       </option>
                       <option
                         readOnly="Third Year"
-                        className=" w-min text-bblue-200 "
+                        className=" text-bblue-200 "
                       >
                         Third Year
                       </option>
                       <option
                         readOnly="Fourth Year"
-                        className=" w-min text-bblue-200 "
+                        className=" text-bblue-200 "
                       >
                         Fourth Year
                       </option>

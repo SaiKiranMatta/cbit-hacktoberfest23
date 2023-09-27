@@ -47,6 +47,7 @@ const Navbar = () => {
     event.preventDefault();
     window.location.href = link;
     scrollDownOnLoad();
+    setMenuOpen(false);
   };
 
   useEffect(() => {
@@ -193,6 +194,7 @@ const Navbar = () => {
                 <li key={index} className="my-2 ">
                   <Link
                     href={link.link}
+                    onClick={(event) => handleLink(event, link.link)}
                     className="hover:text-[#d2b863] duration-300 text-lg"
                   >
                     {link.name}

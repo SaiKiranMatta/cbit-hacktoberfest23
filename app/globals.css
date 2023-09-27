@@ -391,3 +391,16 @@ body {
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
 }
+
+/*@media screen and (-webkit-min-device-pixel-ratio: 0){ 
+  /* Styles specific to Safari on iOS */
+  /*.navbar-ios {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  /*.hero-ios {
+    margin-top: 110px;}} /* Adjust this value as needed */
+

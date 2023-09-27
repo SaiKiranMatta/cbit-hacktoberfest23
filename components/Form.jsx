@@ -52,7 +52,7 @@ class Form extends React.Component {
                   CBIT Hacktoberfest Hackathon 2023
                 </span>
               </h2>
-              <p className=" my-3">
+              <p className=" my-3 text-sm leading-6 md:text-base">
                 Join the CBIT Hacktoberfest Hackathon, a virtual celebration of
                 open source and community. With 105 teams and 516 participants
                 in the last edition, this flagship event by COSC is back to
@@ -61,30 +61,30 @@ class Form extends React.Component {
                 world in this exciting edition of Hacktoberfest!
               </p>
               <div className=" flex flex-col gap-2">
-                <span className=" self-center text-bgold-200 mb-10">
+                <span className=" self-center text-bgold-200 mb-10 text-sm leading-6 md:text-base">
                   This is your chance to make a mark in the open-source realm
                   <span className=" text-bblue-200">!</span>
-                </span>{" "}
-                <div className="align-items-center flex flex-col justify-center font-thin  md:flex-row items-center gap-4 text-bgold-200 w-full  md:text-base text-justify  ">
-                  To edit response or if the website isn&apos;t working please
-                  go to this Google Form
+                </span>
+                <div className="align-items-center flex flex-col justify-center font-thin  md:flex-row items-center gap-4 text-bgold-200 w-full  md:text-base text-sm leading-6">
+                  To edit your response or if you are unable to register on the
+                  website, register using the Google form.
                 </div>
-                <div className=" my-2 flex justify-center">
+                <div className=" mt-4 flex justify-center">
                   <Link
                     className="shimmerb mx-auto "
                     href="https://forms.gle/pt1HRckW8i8gAMgv9"
                   >
-                    <button className=" mx-auto px-4 py-2 rounded-lg bg-opacity-10 border border-bgold-200 shadow-md hover:bg-Manga-200 hover:bg-opacity-25 duration-300">
+                    <button className=" mx-auto mb-3 px-4 py-2 rounded-lg bg-opacity-10 border border-bgold-200 shadow-md hover:bg-Manga-200 hover:bg-opacity-25 duration-300">
                       Google Form
                     </button>
                   </Link>
                 </div>
                 <div className=" flex flex-col">
-                  <span className=" self-center text-bblue-200 text-xl py-2">
+                  <span className=" self-center text-bblue-200 md:text-xl text-base font-semibold leading-6 py-2">
                     Here are some essential rules and guidelines to keep in
                     mind:
                   </span>
-                  <ul className=" list-disc">
+                  <ul className=" list-disc text-sm md:text-base leading-6">
                     <li className=" my-1">
                       Every team will consist of 3 to 5 members and individual
                       or paired participants will be pooled together.
@@ -104,7 +104,7 @@ class Form extends React.Component {
                     </li>
                   </ul>
                 </div>
-                <div className=" mt-3 mb-1">
+                <div className=" mt-3 mb-1 ">
                   <span className=" text-bgold-200"> Mode:</span>
                   <span className=" text-bblue-100"> Virtual (on Discord)</span>
                 </div>
@@ -126,7 +126,7 @@ class Form extends React.Component {
                     7th October, 4:00 PM to 8th October, 7:30 PM
                   </span>
                 </div>
-                <div className=" my-2">
+                <div className=" my-2 md:text-base text-sm leading-6">
                   {" "}
                   Stay tuned for additional information that will be relayed
                   through your team leader. Please keep an eye on your
@@ -137,12 +137,27 @@ class Form extends React.Component {
                     Instagram handle for future updates.
                   </p>{" "}
                   <div className=" my-2">
-                    For any queries, contact: <br />
-                    <span className=" text-bgold-200">Akil:</span>{" "}
-                    <span className=" text-bblue-100">+91 94426 21187</span>
-                    <br />
-                    <span className=" text-bgold-200">Ritesh:</span>{" "}
-                    <span className=" text-bblue-100">+91 96182 66824</span>
+                    For any queries, contact:
+                    <div className=" flex flex-col w-max my-2">
+                      <div className="flex justify-between">
+                        <span className=" text-bgold-200 pr-2">Akil:</span>
+                        <Link
+                          href="tel:+919442621187"
+                          className="text-bblue-100 hover:underline"
+                        >
+                          +91 94426 21187
+                        </Link>
+                      </div>
+                      <div className=" flex justify-between">
+                        <span className=" text-bgold-200 pr-2">Ritesh:</span>
+                        <Link
+                          href="tel:+919618266824"
+                          className=" text-bblue-100 hover:underline"
+                        >
+                          +91 96182 66824
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -291,7 +306,7 @@ class Form extends React.Component {
                     id="1651657008"
                     name="entry.1651657008"
                     // className="form-control"
-                    className="form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 w-5/6 justify-items-center items-center w-full px-4 py-2"
+                    className="form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200  justify-items-center items-center w-full px-4 py-2"
                     required
                   ></textarea>
                 </div>
@@ -427,29 +442,29 @@ class Form extends React.Component {
                     <select
                       id="620465286"
                       name="entry.108615760"
-                      className="w-full  form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 focus:bg-void"
+                      className="w-full form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 focus:bg-void "
                     >
                       <option
                         readOnly="First Year"
-                        className=" text-bblue-200 "
+                        className="  text-bblue-200 "
                       >
                         First Year
                       </option>
                       <option
                         readOnly="Second Year"
-                        className=" text-bblue-200 "
+                        className="  text-bblue-200 "
                       >
                         Second Year
                       </option>
                       <option
                         readOnly="Third Year"
-                        className=" text-bblue-200 "
+                        className="  text-bblue-200 "
                       >
                         Third Year
                       </option>
                       <option
                         readOnly="Fourth Year"
-                        className=" text-bblue-200 "
+                        className="  text-bblue-200 "
                       >
                         Fourth Year
                       </option>
@@ -602,7 +617,12 @@ class Form extends React.Component {
               </fieldset>
 
               <fieldset className="form-group w-full">
-                <legend for="30119366">College Name</legend>
+                <legend
+                  htmlFor="30119366"
+                  className="text-bblue-200 text-xl py-2"
+                >
+                  College Name
+                </legend>
                 <div className="form-group">
                   <div className="radio">
                     <label>
@@ -629,7 +649,7 @@ class Form extends React.Component {
                       type="text"
                       name="entry.1644823420.other_option_response"
                       placeholder="Your Institute Name"
-                      className=" px-12 py-6 bg-Manga-100 bg-opacity-20  rounded-xl shadow-lg border border-bgold-200 backdrop-blur-md flex flex-col items-center my-8 w-full"
+                      className="form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 w-full"
                     />
                   </div>
                 </div>
@@ -745,7 +765,12 @@ class Form extends React.Component {
               </fieldset>
 
               <fieldset className="form-group w-full">
-                <legend for="1147559039">College Name</legend>
+                <legend
+                  htmlFor="1147559039"
+                  className="text-bblue-200 text-xl py-2"
+                >
+                  College Name
+                </legend>
                 <div className="form-group">
                   <div className="radio">
                     <label>
@@ -772,7 +797,7 @@ class Form extends React.Component {
                       type="text"
                       name="entry.257862837.other_option_response"
                       placeholder="Your Institute Name"
-                      className=" px-12 py-6 bg-Manga-100 bg-opacity-20  rounded-xl shadow-lg border border-bgold-200 backdrop-blur-md flex flex-col items-center my-8 w-full"
+                      className="form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 w-full"
                     />
                   </div>
                 </div>
@@ -889,7 +914,12 @@ class Form extends React.Component {
               </fieldset>
 
               <fieldset className="form-group w-full">
-                <legend for="1289435999">College Name</legend>
+                <legend
+                  htmlFor="1289435999"
+                  className="text-bblue-200 text-xl py-2"
+                >
+                  College Name
+                </legend>
                 <div className="form-group">
                   <div className="radio">
                     <label>
@@ -916,7 +946,7 @@ class Form extends React.Component {
                       type="text"
                       name="entry.443034656.other_option_response"
                       placeholder="Your Institute Name"
-                      className=" px-12 py-6 bg-Manga-100 bg-opacity-20  rounded-xl shadow-lg border border-bgold-200 backdrop-blur-md flex flex-col items-center my-8 w-full"
+                      className="form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 w-full"
                     />
                   </div>
                 </div>
@@ -1033,7 +1063,12 @@ class Form extends React.Component {
               </fieldset>
 
               <fieldset className="form-group w-full">
-                <legend for="892138441">College Name</legend>
+                <legend
+                  htmlFor="892138441"
+                  className="text-bblue-200 text-xl py-2"
+                >
+                  College Name
+                </legend>
                 <div className="form-group">
                   <div className="radio">
                     <label>
@@ -1060,7 +1095,7 @@ class Form extends React.Component {
                       type="text"
                       name="entry.1327608088.other_option_response"
                       placeholder="Your Institute Name"
-                      className=" px-12 py-6 bg-Manga-100 bg-opacity-20  rounded-xl shadow-lg border border-bgold-200 backdrop-blur-md flex flex-col items-center my-8 w-full"
+                      className="form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 w-full"
                     />
                   </div>
                 </div>
@@ -1175,7 +1210,12 @@ class Form extends React.Component {
               </fieldset>
 
               <fieldset className="form-group w-full">
-                <legend for="1859382656">College Name</legend>
+                <legend
+                  htmlFor="1859382656"
+                  className="text-bblue-200 text-xl py-2"
+                >
+                  College Name
+                </legend>
                 <div className="form-group">
                   <div className="radio">
                     <label>
@@ -1202,7 +1242,7 @@ class Form extends React.Component {
                       type="text"
                       name="entry.1137456307.other_option_response"
                       placeholder="Your Institute Name"
-                      className=" px-12 py-6 bg-Manga-100 bg-opacity-20  rounded-xl shadow-lg border border-bgold-200 backdrop-blur-md flex flex-col items-center my-8 w-full"
+                      className="form-control shadow-md md:text-xl rounded-lg bg-Manga-200 bg-opacity-20 border border-bgold-200 px-4 py-2 w-full"
                     />
                   </div>
                 </div>
@@ -1384,9 +1424,9 @@ class Form extends React.Component {
           integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
           crossorigin="anonymous"
         />
-        <div className="align-items-center flex flex-col justify-center font-thin  md:flex-row items-center gap-4 text-bgold-200 w-full text-center md:text-base text-xs leading-5">
-          To edit response or if the website isn&apos;t working please go to
-          this Google Form
+        <div className="align-items-center flex flex-col justify-center font-thin  md:flex-row items-center gap-4 text-bgold-200 w-full text-center md:text-base text-sm leading-6">
+          To edit your response or if you are unable to register on the website,
+          register using the Google form.
         </div>
         <div className=" mt-4 flex justify-center">
           <Link

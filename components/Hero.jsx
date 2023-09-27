@@ -16,8 +16,8 @@ const Hero = () => {
               CBIT Hacktoberfest Hackathon&apos;23
             </span>
           </h1>
-          <span className="md:text-lg mt-6 ">
-            The Biggest Technical Fest of CBIT{" "}
+          <span className="md:text-lg mt-6 text-center ">
+            The Biggest Technical Fest of CBIT
           </span>
 
           <span className=" md:text-lg  text-bred-200">
@@ -36,8 +36,8 @@ const Hero = () => {
             height={400}
             src="/images/HFest23_LogoCrop.png"
             styles={{
-                "z-index": 1,
-              }}
+              "z-index": 1,
+            }}
             alt="Logo"
             className=""
             style={{ margin: "auto" }}

@@ -65,6 +65,20 @@ class Form extends React.Component {
                   This is your chance to make a mark in the open-source realm
                   <span className=" text-bblue-200">!</span>
                 </span>{" "}
+                <div className="align-items-center flex flex-col justify-center font-thin  md:flex-row items-center gap-4 text-bgold-200 w-full  md:text-base text-justify  ">
+                  To edit response or if the website isn&apos;t working please
+                  go to this Google Form
+                </div>
+                <div className=" my-2 flex justify-center">
+                  <Link
+                    className="shimmerb mx-auto "
+                    href="https://forms.gle/pt1HRckW8i8gAMgv9"
+                  >
+                    <button className=" mx-auto px-4 py-2 rounded-lg bg-opacity-10 border border-bgold-200 shadow-md hover:bg-Manga-200 hover:bg-opacity-25 duration-300">
+                      Google Form
+                    </button>
+                  </Link>
+                </div>
                 <div className=" flex flex-col">
                   <span className=" self-center text-bblue-200 text-xl py-2">
                     Here are some essential rules and guidelines to keep in

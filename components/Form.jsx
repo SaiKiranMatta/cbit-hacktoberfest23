@@ -109,7 +109,7 @@ class Form extends React.Component {
                       or paired participants will be pooled together.
                     </li>
                     <li className=" my-1">
-                      In the spirit of open source, there will be
+                      In the spirit of open source, there will be{" "}
                       <span className=" font-bold text-bgold-200">no Registration Fees</span>.
                     </li>
                     <li className=" my-1">

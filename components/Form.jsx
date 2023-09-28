@@ -111,7 +111,7 @@ class Form extends React.Component {
                     </li>
                     <li className=" my-1">
                       In the spirit of open source, there will be{" "}
-                      <span className=" font-bold">no Registration Fees</span>
+                      <span className=" font-bold">no Registration Fees</span>.
                     </li>
                     <li className=" my-1">
                       <span className=" font-bold">Problem statements </span>

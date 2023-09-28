@@ -82,8 +82,7 @@ class Form extends React.Component {
               </p>
               <div className=" flex flex-col gap-2">
                 <span className=" self-center text-bgold-200 mb-10 text-sm leading-6 md:text-base">
-                  This is your chance to make a mark in the open-source realm
-                  <span className=" text-bblue-200">!</span>
+                  This is your chance to make a mark in the open-source realm!
                 </span>
                 <div className="align-items-center flex flex-col justify-center font-thin  md:flex-row items-center gap-4 text-bgold-200 w-full  md:text-base text-sm leading-6">
                   To edit your response or if you are unable to register on the
@@ -111,11 +110,10 @@ class Form extends React.Component {
                     </li>
                     <li className=" my-1">
                       In the spirit of open source, there will be{" "}
-                      <span className=" font-bold">no Registration Fees</span>.
+                      <span className=" font-bold text-bgold-200">no Registration Fees</span>.
                     </li>
                     <li className=" my-1">
-                      <span className=" font-bold">Problem statements </span>
-                      will be released on the day of the hackathon.
+                      Problem statements will be released on the day of the hackathon.
                     </li>
                     <li className=" my-1 font-bold">
                       The hackathon is inclusive and welcomes students from all

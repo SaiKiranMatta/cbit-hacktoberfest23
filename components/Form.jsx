@@ -104,7 +104,7 @@ class Form extends React.Component {
                     Here are some essential rules and guidelines to keep in
                     mind:
                   </span>
-                  <ul className=" list-disc text-sm md:text-base leading-6 py-2">
+                  <ul className=" list-disc text-sm md:text-base leading-6 px-2">
                     <li className=" my-1">
                       Every team will consist of 3 to 5 members and individual
                       or paired participants will be pooled together.

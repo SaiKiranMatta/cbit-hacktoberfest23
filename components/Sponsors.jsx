@@ -19,7 +19,7 @@ const Sponsors = () => {
 
         <div className="flex flex-col items-center gap-8">
             <div className="flex flex-col items-center gap-2 ">
-                <h1 className="justify-center text-4xl text-center justify-items-center text-bblue-200 shimmerb">
+                <h1 className="justify-center text-3xl text-center justify-items-center text-bblue-200 shimmerb">
                     Our Co-sponsor
                 </h1>
                 <div className=" h-[2px] bg-bblue-200 w-16"></div>

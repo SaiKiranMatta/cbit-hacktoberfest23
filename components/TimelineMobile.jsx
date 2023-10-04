@@ -64,7 +64,7 @@ const TimelineMobile = () => {
               </Link> */}
                         </div>
                     </div>
-                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-30 md:px-8    md:py-4 px-4 py-2 border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-24 md:px-8    md:py-4 px-4 py-2 border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 4th October
@@ -80,7 +80,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-30  md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-24  md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 6th October
@@ -99,7 +99,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between text-xl ">
+                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 7th October
@@ -119,7 +119,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 7th October
@@ -137,7 +137,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM   w-[60vmin] text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className="sectionM   w-[60vmin] text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 7th October
@@ -156,7 +156,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 7th October
@@ -175,7 +175,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM w-[60vmin]   text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between text-xl ">
+                    <div className="sectionM w-[60vmin]   text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 8th October
@@ -193,7 +193,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM w-[60vmin]    text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className="sectionM w-[60vmin]    text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 8th October
@@ -212,7 +212,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className=" sectionM w-[60vmin]   text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className=" sectionM w-[60vmin]   text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 8th October
@@ -232,7 +232,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM w-[60vmin]    text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className="sectionM w-[60vmin]    text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 8th October
@@ -251,7 +251,7 @@ const TimelineMobile = () => {
                         </div>
                     </div>
 
-                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-30 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
+                    <div className="sectionM   w-[60vmin]  text-bgold-200 md:h-60 h-24 md:px-8 md:py-4 px-4 py-2    border-2 border-bgold-200 rounded-xl flex flex-col justify-between  text-xl ">
                         <div className="text-sm tracking-tighter md:text-2xl">
                             <h1>
                                 8th October

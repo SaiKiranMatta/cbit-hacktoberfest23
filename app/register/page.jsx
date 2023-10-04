@@ -1,12 +1,12 @@
-"use client";
-import Form from "@/components/Form";
-import Contact from "@/components/Contact";
-import About from "@/components/About";
-import Footer from "@/components/Footer";
+// "use client";
+// import Form from "@/components/Form";
+import FormClosed from "@/components/FormClosed";
+
 export default function Home() {
-  return (
-    <main className=" spacer2 layer4 w-full">
-      <Form />
-    </main>
-  );
+    return (
+        <main className="flex justify-center w-full spacer layer8">
+            {/* <Form /> */}
+            <FormClosed />
+        </main>
+    );
 }

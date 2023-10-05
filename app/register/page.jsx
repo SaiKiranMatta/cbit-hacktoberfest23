@@ -4,7 +4,7 @@ import FormClosed from "@/components/FormClosed";
 
 export default function Home() {
     return (
-        <main className="w-full spacer layer8">
+        <main className="flex justify-center w-full  spacer layer8">
             {/* <Form /> */}
             <FormClosed />
         </main>

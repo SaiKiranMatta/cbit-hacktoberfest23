@@ -32,7 +32,7 @@ const Sponsors = () => {
                         className="mx-4 "
                     >
                         <Image
-                            src="/images/sponsors/skillsoft.png"
+                            src="/images/sponsors/Skillsoft.png"
                             width={426}
                             height={240}
                             className="rounded-xl "

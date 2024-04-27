@@ -17,7 +17,7 @@ function Footer() {
             need to thrive in the world of technology.
           </p>
           <h2 className="shimmerb text-bblue-200 py-4 text-xl">
-            Join Us on This Journey
+            Join Us on This Journey because it is good
           </h2>
 
           <p className="text-sm md:text-base md:leading-6">
